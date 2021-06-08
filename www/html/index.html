@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COP 4331 | Login</title>
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script type = "text/javascript" src="/js/NewJs.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="members.html" title="Developers of MyContacts" target="_blank">COP 4331 - Group 9 Members</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="logo">MyContacts</div>
+    <form class="form">
+        <br>
+        <label for="user">Username</label><br>
+        <input id="user" name="user"></input><br>
+        <label for="pw">Password</label><br>
+        <input id="pw" type="password" name="pw"></input><br><br>
+        <button class="button" id="login" title="Login" onclick = "doLogin();return false;">Login</button> 
+        <a href="newuser.html" target="_self"> New Account?</a>
+    </form>
+    <span id="loginResult"></span>
+    
+
+</body>
+</html>

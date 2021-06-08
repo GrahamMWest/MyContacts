@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>COP 4331 | Update MyContact</title>
+    <link rel="stylesheet" type="text/css" href="contact-editor.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script type = "text/javascript" src="/js/NewJs.js"></script>
+</head>
+
+<body onload="readCookie();loadCurrentContact();">
+    <div class="box"></div>
+
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="members.html" title="Developers of MyContacts" target="_blank">COP 4331 - Group 9
+                        Members</a>
+                </li>
+                <li class="right spacer">
+                </li>
+                <li class="right">
+                    <a href="index.html" title="Logout of MyContacts" target="_self">Logout</a>
+                </li>
+                <li>
+                    <a href="home.html" title="MyContacts Home Page" target="_self">Home</a>
+                </li>
+                <li>
+                    <a href="home-search.html" title="Search MyContacts" target="_self">Search</a>
+                </li>
+                <li>
+                    <a href="contact-adder.html" title="Add to MyContacts" target="_self">Add MyContact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="logo">MyContacts</div>
+    <form class="form">
+        <br>
+        <label for="fname">First Name</label><br>
+        <input id="fname" name="fname" value=""></input><br>
+        <label for="lname">Last Name</label><br>
+        <input id="lname" name="lname" value=""></input><br>
+        <label for="phone">Phone</label><br>
+        <input id="phone" name="phone" value=""></input><br>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" value=""></input><br>
+        <label for="addr">Address</label><br>
+        <input id="addr" name="addr" value=""></input><br><br> 
+        <button class="button" id="edit" title="Update MyContact" onclick = "updateUser();return false">Update MyContact</button>
+        <button class="button" id="delete" title="Delete from MyContacts" onclick="deleteContact();return false">Delete MyContact</button>
+    </form>
+
+    <span id="errors"></span>
+
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>COP 4331 | MyContacts Home</title>
+    <link rel="stylesheet" type="text/css" href="home-search.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script type = "text/javascript" src="/js/NewJs.js"></script>
+</head>
+
+<body onload = "readCookie();">
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="members.html" title="Developers of MyContacts" target="_blank">COP 4331 - Group 9
+                        Members</a>
+                </li>
+                <li class="right spacer">
+                </li>
+                <li class="right">
+                    <a href="index.html" title="Logout of MyContacts" target="_self" onclick = "doLogout();">Logout</a>
+                </li>
+                <li>
+                    <a href="home.html" title="MyContacts Home Page" target="_self">Home</a>
+                </li>
+                <li>
+                    <a href="contact-adder.html" title="Add to MyContacts" target="_self">Add MyContact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+        <div class="logo">MyContacts</div><br>
+            <strong>Search For MyContact Below: </strong><br>
+            <input id="firstSearch" name="firstSearch" placeholder="Seach First Name" value=""></input><br>
+            <input id="lastSearch" name="lastSearch" placeholder="Seach Last Name" value=""></input><br>
+        <br>
+        <div id = "contactList" class="contacts"></div>
+        <br>
+    </div>
+
+    <button class="button" id="add" title="Search Contacts" onclick = "searchContact();">Search</button>
+    
+</body>
+
+</html>

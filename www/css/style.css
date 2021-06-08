@@ -1,0 +1,37 @@
+.body {
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(224, 217, 217)
+}
+.h1 {
+    background-color: rgb(184, 175, 175);
+    color:rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 75px;
+    border: #413e3e;
+    border-style:groove;
+    border-width: 15px;
+}
+.p {
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.input{
+    text-align: center;
+}
+.input:hover, .button:hover {
+    border-color: tomato;
+}
+.button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(184, 175, 175);
+    border-style: groove;
+    border-width: 4px;
+    font-family:'Courier New', Courier, monospace;
+}
+#newAccount {
+    white-space: nowrap;
+    width: 114px;
+}

@@ -1,0 +1,149 @@
+
+*{
+    text-align: center;
+}
+.box{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.logo{
+    position: relative;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+    color: #0d47a1;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.spacer:hover {
+    background-color: #37474f;
+}
+
+li:first-child, .right{
+    float:right;
+}
+.contacts{
+    color:Black;
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+    border-width: 5px;
+    font-size: 20px;
+    width:640px;
+    height:750px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 1px 2px 3px black;
+}
+
+.form{
+    position: relative;
+    padding:20px 10px;
+    line-height: 35px;
+}
+
+input:hover, input:active{
+    border-color:tomato;
+}
+
+.button {
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color: #1e88e5;
+    border-width: 0.4px;
+    border-radius: 25px;
+    border-style:outset;
+    transition: background-color 0.8s ease-in;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 1px 2px 3px rgb(104, 104, 104);
+    border-color: rgb(116, 116, 116);
+}
+input{
+    border-radius:8px;
+    border-width: 0.8px;
+    width: 500px;
+    height: 30px;
+    box-shadow: 1px 2px 3px rgb(104, 104, 104);
+}
+input:focus {
+    border-radius: 8px;
+}
+
+.button:hover {
+    border-color: tomato;
+    background-color: #0d47a1;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    background-color: #37474f;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+li{
+    float: left;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.25s ease-in;
+    background-color: #37474f;
+}
+li:hover {
+    background-color: #263238;
+}
+
+li a, a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar{
+    position:relative;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100vw;
+    height: auto;
+    background-color: #37474f;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 2.5px 2px 5px grey; 
+  background-color: gray;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #37474f; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #263238; 
+}
+
+strong {
+     text-shadow: 1px 1px 4px gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(150, 154, 156);
+    position: relative;
+    margin: 0;
+}

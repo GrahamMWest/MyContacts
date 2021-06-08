@@ -1,0 +1,76 @@
+.members{
+    line-height: 75px;
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    text-shadow: 1px 2px 3px rgb(104, 104, 104);
+}
+h1 {
+    color: #0d47a1;
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    list-style: none;
+}
+
+.ul{
+    list-style: none;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    background-color: #37474f;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.li{
+    float: left;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.25s ease-in;
+    background-color: #37474f;
+}
+.li:hover {
+    background-color: #263238;
+}
+
+li a, a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar{
+    position:relative;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100vw;
+    background-color: #37474f;
+}
+::-webkit-scrollbar {
+  width: 18px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 2.5px 2px 5px grey; 
+  background-color: gray;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #37474f; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #263238; 
+}
+body{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    background-color: rgb(150, 154, 156);
+    margin: 0;
+}
